@@ -1,0 +1,674 @@
+/*----Спецификация----*/
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    /*line-height: 0.02em;*/
+    color: black;
+    background: url("../img/back.jpg.jpg");
+}
+h1,h2,h3{
+    text-transform: uppercase;
+    font-family: Roboto Slab;
+}
+h1{
+    font-size: 69px;
+}
+h2{
+    font-size: 41px;
+}
+div,p,span,h1,h2,h3,button,a,ul,li{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 45px;
+}
+.button{
+    background: #ffae00;
+    border: none;
+    font-family: Roboto Slab;
+    cursor: pointer;
+}
+.container{
+    width: 1183px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/*----Header----*/
+.top-header{
+    height: 60px;
+    line-height: 60px;
+}
+.top-header + .flex-container{
+    margin-top: 55px;
+}
+.top-header__any-questions{
+    margin-left: 427px;
+    opacity: 0.55;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 80px;
+    /* Text style for "По любым в" */
+    letter-spacing: 0.56px;
+}
+.top-header__button{
+    margin-left: 44px;
+    width: 159px;
+    height: 42px;
+    border: 1px solid #000000;
+    background: white;
+    cursor: pointer;
+
+}
+.top-header__mail-to{
+    margin-left: 38px;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 80px;
+    /* Text style for "r, eg@wayu" */
+    letter-spacing: 0.56px;
+}
+.header-content{
+    width: 600px;
+}
+.header-content__title{
+    width: 590px;
+}
+.header-content__sub-title{
+    font-size: 18px;
+}
+.header-content .advantages{
+    list-style: none;
+    margin-top: 45px;
+}
+.header-content .advantages__item{
+    height: 28px;
+    margin-top: 12px;
+}
+.advantages__item-p{
+    padding-left: 14px;
+}
+.header-content .advantages__item p{
+    line-height: 28px;
+}
+.header-content .advantages__item p
+.header-content .advantages__item img{
+    display: inline;
+}
+.header-content__button{
+    height: 80px;
+    width: 397px;
+    position: relative;
+    font-size: 22px;
+    margin-top: 55px;
+}
+.header-content__buttons{
+    display: flex;
+ }
+.header-content__13{
+    margin-top: 55px;
+    width: 73px;
+    height: 80px;
+    background: black;
+    padding-top: 23px;
+    color: #ffffff;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* Text style for "1, 3" */
+    font-size: 19px;
+    letter-spacing: 0.76px;
+    text-align:  center;
+}
+.header-image{
+    width: 583px ;
+}
+.header-image img{
+    height: 527 px;
+}
+
+/*----First section----*/
+.first-section__cognition {
+   margin-top: 163px;
+}
+.fs{
+    width: 1920px;
+    height: 464px;
+    background: #f4f4f4;
+}
+
+.first-section__cognition h3 {
+    padding-top: 81px;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    /* Text style for "Что вы узн" */
+    letter-spacing: 1.64px;
+}
+.first-section__cognition p{
+    width: 570px;
+    padding-top: 32px;
+    font-size: 17px;
+}
+.first-section li{
+    box-sizing: border-box;
+}
+.first-section__three-skills{
+    margin-top: 50px;
+}
+.first-section__block{
+    display: flex;
+    list-style: none;
+}
+.first-section__block-item-idea{
+    background: url("../img/lamp-icon.png.png") no-repeat left top;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.first-section__block-item-professional{
+    margin-left: 30px;
+    background: url("../img/face-icon.png.png") no-repeat left top;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.first-section__block-item-Earning{
+    margin-left: 30px;
+    background: url("../img/money-icon.png.png") no-repeat left top;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.first-section__block li {
+    font-size: 18px;
+    font-family: "Roboto Slab";
+    line-height: 1.167;
+}
+.first-section__block p{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.313;
+}
+
+/*----Second section----*/
+.second-section{
+    display: flex;
+}
+.second-section__3 {
+    margin-top: 64px;
+    width: 174px;
+    height: 258px;
+    color: #ffae00;
+    font-family: "Roboto Slab";
+    font-size: 352px;
+    font-weight: 700;
+    line-height: 445.83px;
+    text-transform: uppercase;
+    /* Text style for "3," */
+    letter-spacing: 1.64px;
+}
+.second-section__cause{
+    width: 635px;
+    margin-left: 52px;
+    margin-top: 204px;
+    letter-spacing: 1.64px;
+    line-height: 57px;
+}
+.cause{
+    margin-left: 52px;
+    font-size: 70px;
+    font-family: "Roboto Slab";
+    color: rgb(255, 174, 0);
+    text-transform: uppercase;
+    line-height: 0.743;
+}
+.second-section__cause p{
+    margin-left: 52px;
+    margin-top: 30px;
+    width: 630px;
+    font-size: 45px;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    line-height: 57px;
+    text-align: left;
+    position: absolute;
+}
+
+/*----Third section----*/
+.ts{
+    height: 286px;
+    width: 1920px;
+    background: #2e2e2e;
+    margin-top: 180px;
+}
+.third-section{
+    display: flex;
+}
+.third-section__num{
+    width: 371px;
+    height: 81px;
+    background-color: #ffae00;
+    color: #2e2e2e;
+    font-family: "Roboto Slab";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "1" */
+    letter-spacing: 1.68px;
+    display: flex;
+    justify-content: center;
+}
+.third-section__relevance{
+    margin-left: 20px;
+}
+.third-section__relevance h3{
+    margin-top: 33px;
+    color: #ffae00;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "актуальнос" */
+    letter-spacing: 0.84px;
+}
+.third-section__relevance p{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    /* Text style for "В, еб-Диза" */
+    letter-spacing: 0.64px;
+}
+.third-section__training{
+    margin-left: 20px;
+}
+.third-section__training h3{
+    margin-top: 33px;
+    color: #ffae00;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "актуальнос" */
+    letter-spacing: 0.84px;
+}
+.third-section__training p{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    /* Text style for "В, еб-Диза" */
+    letter-spacing: 0.64px;
+}
+.third-section__master-class{
+    margin-left: 20px;
+}
+.third-section__master-class h3{
+    margin-top: 33px;
+    color: #ffae00;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: uppercase;
+    /* Text style for "актуальнос" */
+    letter-spacing: 0.84px;
+}
+.third-section__master-class p{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    /* Text style for "В, еб-Диза" */
+    letter-spacing: 0.64px;
+}
+
+/*----Fourth section----*/
+.fourth--section{
+    background: #1c1c1c;
+    width: 1920px;
+}
+.fourth-section__name{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+.fourth-section__name h3{
+    padding-top: 67px;
+    color: #ffffff;
+    line-height: 32px;
+    /* Text style for "Андрей Гав" */
+    font-family: "Roboto Slab";
+    font-size: 41px;
+    font-weight: 700;
+    letter-spacing: 1.64px;
+    text-transform: uppercase;
+}
+.fourth-section_leading{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 0.72px;
+}
+.fourth-section__column{
+    margin-top: 44px;
+}
+.fourth-section_li{
+    background: url("../img/li2.png.png") no-repeat top left;
+}
+.fourth-section_li-sites p{
+    width: 440px;
+    margin-top: 44px;
+    margin-left: 41px;
+    color: #d4d4d4;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.fourth-section__sites{
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+.fourth-section_li-experience p{
+    margin-top: 26px;
+    margin-left: 41px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.fourth-section__experience{
+    font-weight: 400;
+    letter-spacing: 0.68px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 23px;
+}
+.fourth-section_li-skill p{
+    margin-top: 26px;
+    margin-left: 41px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 0.68px;
+}
+.fourth-section_li__skill{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 23px;
+    font-family: "Roboto - Black";
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+.fourth-section-freelance p{
+    margin-top: 26px;
+    margin-left: 41px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 0.68px;
+}
+.fourth-section__freelance{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+.fourth-section{
+    display: flex;
+}
+.fourth-section__photo{
+    height: 439px;
+    width: 477px;
+    margin-left: 175px;
+}
+.fourth-section__skill{
+    height: 85px;
+    display: flex;
+    background: #101010;
+}
+.fourth-section__skill span{
+    margin-top: 36px;
+    margin-left: 370px;
+    color: #ffae00;
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    /* Text style for "Вы можете" */
+    letter-spacing: 0.76px;
+}
+.fourth-section__skill p{
+    margin-top: 36px;
+    margin-left: 167px;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    line-height: 23px;
+    /* Text style for "  ,   ," */
+    letter-spacing: 0.64px;
+    /* Text style for "Веб-дизайн" */
+    font-weight: 700;
+}
+
+/*----Fifth section----*/
+.fifth-section__h2{
+    margin-top: 76px;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    /* Text style for "регистраци" */
+    letter-spacing: 1.64px;
+}
+.fifth-section__skill{
+    display: flex;
+}
+.fifth-section__date{
+    padding-top: 14px;
+    height: 53px;
+    width: 53px;
+    border: 2px solid #ffae00;
+    background: #ffae00;
+    color: #101010;
+    font-family: "Roboto Slab";
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14.09px;
+    text-transform: uppercase;
+    letter-spacing: 0.52px;
+    text-align:  center;
+}
+.fifth-section__time{
+    padding-top: 19px;
+    height: 53px;
+    width: 73px;
+    border: 2px solid #242424;
+    background: #242424;
+    text-align:  center;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14.09px;
+    text-transform: uppercase;
+    /* Text style for "1, 9:00" */
+    letter-spacing: 0.82px;
+}
+.fifth-section__participation{
+    margin-left: 33px;
+    width: 288px;
+}
+.fifth-section__price{
+    margin-left: 36px;
+    padding-top: 14px;
+    height: 53px;
+    width: 53px;
+    border: 2px solid #ffae00;
+    background: #ffae00;
+    color: #101010;
+    font-family: "Roboto Slab";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 14.09px;
+    text-transform: uppercase;
+    /* Text style for "$, 0" */
+    letter-spacing: 1.04px;
+    text-align:  center;
+}
+.fifth-section__cost{
+    width: 141px;
+    height: 53px;
+    padding-top: 13px;
+    border: 2px solid #242424;
+    background: #242424;
+    text-align:  center;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14.09px;
+    /* Text style for "С, тоимост" */
+    letter-spacing: 0.64px;
+}
+.fifth-section__form{
+    margin-top: 44px;
+    height: 225px;
+    width: 719px;
+    border: 5px solid #ffae00;
+}
+.fifth-section__form h3{
+    padding-top: 36px;
+    padding-left: 32px;
+    color: #101010;
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    /* Text style for "Заполните" */
+    letter-spacing: 0.76px;
+}
+.fifth-section__form-border{
+    margin-left: 35px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.fifth-section__form-name{
+    height: 50px;
+    width: 220px;
+    opacity: 0.67;
+    color: #0b0b0b;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    /* Text style for "И, мя" */
+    letter-spacing: 0.6px;
+}
+.fifth-section__form-mail{
+    height: 50px;
+    width: 220px;
+    opacity: 0.67;
+    color: #0b0b0b;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    /* Text style for "E, -mail" */
+    letter-spacing: 0.6px;
+}
+.btn {
+    width: 200px;
+    float: right;
+    background: #ffae00;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.btn i {
+    margin-right: 4px;
+}
+.fifth-section__form p{
+    margin-top: -15px;
+    margin-left: 35px;
+    opacity: 0.77;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 80px;
+    /* Text style for "," */
+    font-family: "Font Awesome";
+    letter-spacing: 0.52px;
+    /* Text style for "Ваши данны" */
+    font-family: "Roboto Light";
+}
+
+.footer{
+    height: 78px;
+    width: 1920px;
+    background: #0b0b0b;
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+}
+.footer p{
+    opacity: 0.53;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 80px;
+    /* Text style for "Соглашение" */
+    letter-spacing: 0.52px;
+}
+.footer__name{
+    margin-left: 385px;
+}
+.footer__personal{
+    margin-left: 54px;
+}
